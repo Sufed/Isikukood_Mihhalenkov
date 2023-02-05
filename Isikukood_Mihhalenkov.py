@@ -39,5 +39,7 @@ else:
     spaev=str(день)+"."+str(месяц)+"."+yy+год #ei ole 18.. 19..,20..
     print(f"Sünnipäev on:", spaev)
     print(f"Viimane number: {isikukood_list[-1]}")
-da=isikukood_list[1]*1+isikukood_list[2]*2+isikukood_list[3]*3+isikukood_list[4]*4+isikukood_list[5]*5+isikukood_list[6]*6+isikukood_list[7]*7+isikukood_list[8]*8+isikukood_list[9]*9+isikukood_list[1]*1
-
+    da=1*int(ik_list[1])+2*int(ik_list[2])+3*int(ik_list[3])+4*int(ik_list[4])+5*int(ik_list[5])+6*int(ik_list[6])+7*int(ik_list[7])+8*int(ik_list[8])+9*int(ik_list[9])+1*int(ik_list[10])
+    print(da)
+    d=da/11
+    print(d)
